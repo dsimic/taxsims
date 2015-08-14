@@ -212,3 +212,4 @@ if __name__ == "__main__":
     df = df.set_index('gross_profit')
     llc['gross_profit'] = gross_profit
     corp['gross_profit'] = gross_profit
+    tax = df[['llc_total_tax', 'corp_total_tax', 'llc_vs_corp']]
